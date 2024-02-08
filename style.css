@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+#magicBall {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #333;
+    display: inline-block;
+    margin: 50px;
+    position: relative;
+}
+
+#magicBallText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fff;
+}
+
+div {
+    padding: 100px;
+}
